@@ -1,11 +1,7 @@
-import UserCard from "./UserCard";
- 
+import Blog from "./Blog";
+
 function App() {
-  return (
-    <div>
-      <UserCard name="John Doe" email="john.doe@example.com" />
-    </div>
-  );
+  return <Blog />;
 }
- 
+
 export default App;
